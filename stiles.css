@@ -75,3 +75,25 @@ body{
      background: #fff;
      color: #441111;
  }
+ .wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid #d1d6e0;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+ }
+ .form-box h2{
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+ }
