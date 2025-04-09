@@ -146,3 +146,16 @@ body{
     display: flex;
     justify-content: space-between;
  }
+ .remember-forgot label input{
+      accent-color: #37404f;
+      margin-right: 3px;
+
+ }
+ .remember-forgot a{
+    color: #162938;
+    text-decoration: none;
+
+ }
+ .remember-forgot a:hover{
+    text-decoration: underline;
+ }
