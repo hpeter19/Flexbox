@@ -179,3 +179,11 @@ body{
     font-weight: 500;
     margin: 25px;
 }
+.login-register p a{
+    color:#162938;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover{
+    text-decoration: underline;
+}
