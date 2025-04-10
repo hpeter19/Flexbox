@@ -1,0 +1,19 @@
+.container{
+    background-color: brown;
+    display: grid;
+    grid-template-rows:100px 100px 100px 100px 100px 100px ;
+    grid-template-columns:100px 100px 100px 100px 100px 100px ;
+}
+.item-1{
+    background: #eb7b07;
+    grid-row-start: 1;
+    grid-row-end:3 ;
+    grid-column-end:1 ;
+    grid-column-start:5 ;
+}
+.item-2{
+    background: #ffa74f;
+}
+.item-3{
+    background: #f09056;
+}
