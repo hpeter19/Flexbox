@@ -87,6 +87,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    transform: scale(0);
     transition: height .2s ease;
  }
  .wrapper.active{
@@ -119,7 +121,8 @@ body{
     text-align: center;
  }
  .wrapper .form-box.login{
-   
+   transition: transform .18s ease;
+   transform: translateX(0);
  }
  .wrapper.active .form-box.login{
     transition: none;
@@ -128,9 +131,14 @@ body{
  }
  .wrapper .form-box.register{
     position: absolute;
+    transition: none;
     transform: translateX(400px);
     background: #f0f1f5;
  }
+ .wrapper.wrapper.active .form-box.register{
+    transition: transform .18s ease;
+    transform: translateX(0);
+  }
  .input-box{
     position: relative;
     width: 100%;
