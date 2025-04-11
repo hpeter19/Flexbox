@@ -5,7 +5,8 @@
     padding: 0.5em;
     margin: 25vh auto 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .item{
     background: rgb(149, 223, 236);
