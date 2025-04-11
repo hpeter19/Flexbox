@@ -1,0 +1,12 @@
+.container{
+    background: #aed0c9;
+    height: 50vh;
+    width: 50vh;
+    padding: 0.5em;
+    margin: 25vh auto 0;
+    display: flex;
+}
+.item{
+    background: rgb(149, 223, 236);
+    margin: 0.5em;
+}
